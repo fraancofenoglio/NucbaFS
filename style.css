@@ -1,6 +1,11 @@
 body {
     background-color: midnightblue;
 }
+ 
+/* img {
+    display: block;
+    margin: auto;
+} */
 
 h1 {
     font-size: 50px;
@@ -8,14 +13,73 @@ h1 {
     background-color: pink;
     text-align: center;
     border-radius: 5px;
+    margin-top: 0%;
+    box-shadow: 8px 5px 10px gray;
+    
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 40px;
     color: purple;
 }
 
-.lucifer {
-    font-size: 15px;
-    color: silver;
+.foto {
+    border-radius: 5px;
+    box-shadow: 8px 5px 10px gray;
+    
+}
+
+.about {
+    background-color: pink;
+    border-radius: 5px;
+    width: 49%;
+    float: left;
+    display: inline;
+    margin-top: 10px;
+    box-shadow: 8px 5px 10px gray;
+    
+
+}
+
+.right {
+    float: right;
+    display: inline;
+    background-color: pink;
+    border-radius: 5px;
+    width: 49%;
+    height: 347.38px;
+    margin-top: 10px;
+    box-shadow: 8px 5px 10px gray;
+    
+   
+    
+}
+
+.info {
+    font-size: 30px;
+
+}
+
+.contact {
+    font-size: 30px;
+    margin-left: 10px;
+}
+.b {
+    float: right;
+    display: inline;
+    width: 49%;
+    height: 504px;
+}
+.a {
+    width: 49%;
+    float: left;
+    display: inline;
+}
+
+h4 {
+    font-size: 40px;
+    color:snow;
+    text-align: center;
+    margin-top: 20%;
+    
 }
