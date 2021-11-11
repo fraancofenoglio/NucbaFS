@@ -1,6 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     background-color: midnightblue;
     background-image: linear-gradient(180deg, midnightblue, white );
+    
 }
  
 /* img {
@@ -14,14 +20,18 @@ h1 {
     background-color: pink;
     text-align: center;
     border-radius: 5px;
-    margin-top: 0%;
+    margin-top: 10px;
     box-shadow: 8px 5px 10px gray;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
     
 }
 
 h2 {
     font-size: 40px;
     color: purple;
+    margin-left: 2px;
 }
 
 .foto {
@@ -33,11 +43,14 @@ h2 {
 .about {
     background-color: pink;
     border-radius: 5px;
-    width: 49%;
+    width: 900px;
     float: left;
     display: inline;
     margin-top: 10px;
     box-shadow: 8px 5px 10px gray;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    height: 251px;
     
 
 }
@@ -47,14 +60,18 @@ h2 {
     display: inline;
     background-color: pink;
     border-radius: 5px;
-    width: 49%;
-    height: 347.38px;
+    width: 900px;
     margin-top: 10px;
     box-shadow: 8px 5px 10px gray;
+    margin-right: 10px;
+    padding-bottom: 1.75%;
+    height: 251px;
+    margin-bottom: 10px;
 }
 
 .info {
     font-size: 30px;
+    margin-left: 30px;
 
 }
 
@@ -68,11 +85,15 @@ h2 {
     display: inline;
     width: 49%;
     height: 504px;
+    margin-right: 10px;
+
 }
 .a {
     width: 49%;
     float: left;
     display: inline;
+    margin-left: 10px;
+    height: 504px;
 }
 
 h4 {
